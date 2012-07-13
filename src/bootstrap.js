@@ -7,7 +7,7 @@ require.config({
   }
 }); 
 
-define( [ 'credits/creditsmodule' ]
+require( [ 'credits/creditsmodule' ]
 , function(credits) {
 
   credits.start();
